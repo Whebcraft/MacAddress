@@ -2,8 +2,8 @@
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="com.badrit.MacAddress"
-  version="0.1.0">
+  id="com.tt.MacAddress"
+  version="1">
   <name>MacAddress</name>
   <description>Cordova MacAddress Plugin</description>
   <license>Apache 2.0</license>
@@ -27,17 +27,5 @@
 
     <source-file src="src/android/MacAddressPlugin.java" target-dir="src/com/badrit/MacAddress/" />
   </platform>
-
-  <!-- ios -->
-  <platform name="ios">
-   <config-file target="config.xml" parent="/*">
-     <feature name="MacAddressPlugin">
-       <param name="ios-package" value="MacAddressPlugin" />
-     </feature>
-   </config-file>
-
-   <header-file src="src/ios/MacAddressPlugin.h" />
-   <source-file src="src/ios/MacAddressPlugin.m" />
- </platform>
 
 </plugin>
